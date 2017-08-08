@@ -1,0 +1,17 @@
+#!/bin/bash
+echo "Listando permisos..."
+ls -l
+echo "Listado terminado...."
+sleep 2
+echo "Moviendo archivos a tmp.."
+mv *.sh tmp
+echo "Moviendo finalizado"
+sleep 2
+cd tmp
+echo "Cambiando permisos"
+chmod a+x *.sh
+echo "Finalizando Permiso..."
+sleep 2
+echo "Listando archivos con permisos en tmp"
+ls -l
+
