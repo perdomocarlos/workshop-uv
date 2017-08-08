@@ -14,4 +14,5 @@ echo "Finalizando Permiso..."
 sleep 2
 echo "Listando archivos con permisos en tmp"
 ls -l
-
+cd ..
+echo "Volviendo a la carpeta original.."
